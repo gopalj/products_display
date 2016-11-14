@@ -11,14 +11,11 @@
             <div class="title">Products Display Page</div>
             <div id="menus">
                 <div id="filtersec">Filter:
-                    <select id="filter">
-                        <option value="-1">All</option>
-                        <option value="jeans">jeans</option>
-                        <option value="sarees">sarees</option>
-                        <option value="pants">pants</option>
-                        <option value="tops">tops</option>
-                        <option value="tshirts">tshirts</option>
-                    </select>
+                    <input type="checkbox" id="filter[]" value="jeans"/>jeans
+                    <input type="checkbox" id="filter[]" value="sarees"/>sarees
+                    <input type="checkbox" id="filter[]" value="pants"/>pants
+                    <input type="checkbox" id="filter[]" value="tops"/>tops
+                    <input type="checkbox" id="filter[]" value="tshirts"/>tshirts
                 </div>
                 <div id="sort">Sort by:
                     <input type="radio" name="sortby" value="price"> Price

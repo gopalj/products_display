@@ -82,8 +82,12 @@
 
 #filtersec, #sort{
     display: inline-block;
+    padding-right: 25px;
 }
 
+#sort{
+    display: inline-block;
+}
 
 @media screen and (max-width: 612px)  {
     .product{
