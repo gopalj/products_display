@@ -1,0 +1,69 @@
+#loading{
+    position:fixed;
+    top: 45%;
+    left: 45%;
+    width:10%;
+    height:10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.title{
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    background: white;
+    display: block;
+    width: 100%;
+    height: 30px;
+ margin-top: -10px;
+}
+
+.product{
+    display:inline-block;
+    height:30%;
+    width:30%;
+    text-align: center;
+    border: solid 0.3px gray;
+    margin: 1px;
+}
+
+.ptitle{
+    font-weight: bold;
+}
+
+.pimg{
+    height: 150px;
+    width: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    display: block;
+    margin: auto;
+}
+
+.prate{
+    color: green;
+    display: block;
+}
+
+.pcat{
+    color: cadetblue;
+    display: inline;
+    float: left;
+}
+
+.pscore{
+    color: gray;
+    display: inline;
+    float: right;
+}
+
+#menuitem{
+    float: right;
+}
+
+#content{
+    clear:both;
+}
