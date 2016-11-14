@@ -7,10 +7,24 @@
         <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
-        <div class="title">Products
-            <div id="menuitem">
-            <span>Filter:</span><span>Sort by:</span>
-        </div>
+        <div id="menuitem">
+            <div class="title">Products Display Page</div>
+            <div id="menus">
+                <div id="filtersec">Filter:
+                    <select id="filter">
+                        <option value="-1">All</option>
+                        <option value="jeans">jeans</option>
+                        <option value="sarees">sarees</option>
+                        <option value="pants">pants</option>
+                        <option value="tops">tops</option>
+                        <option value="tshirts">tshirts</option>
+                    </select>
+                </div>
+                <div id="sort">Sort by:
+                    <input type="radio" name="sortby" value="price"> Price
+                    <input type="radio" name="sortby" value="score"> Score
+                </div>
+            </div>
         </div>
         <div id="loading_sec">
             <img id="loading" src="./images/loading.gif"/>
