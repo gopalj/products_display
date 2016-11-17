@@ -168,3 +168,26 @@
         font-size: 20px;
     }
 }
+
+
+ @media only screen and (min-width:960px){
+     body,#menuitem{
+         width:960px;
+         margin: auto;
+     }
+    /* styles for browsers larger than 960px; */
+}
+@media only screen and (min-width:1440px){
+    body,#menuitem{
+         width:960px;
+         margin: auto;
+     }
+    /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width:2000px){
+    body,#menuitem{
+         width:960px;
+         margin: auto;
+     }
+    /* for sumo sized (mac) screens */
+}
